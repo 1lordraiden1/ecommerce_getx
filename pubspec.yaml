@@ -17,12 +17,13 @@ dependencies:
   flutter:
     sdk: flutter
 
-  #Icons
+  # icons
   iconsax: ^0.0.8
   
   cupertino_icons: ^1.0.2
   
   get: ^4.6.5
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
