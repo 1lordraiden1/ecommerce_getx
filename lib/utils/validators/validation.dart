@@ -42,9 +42,9 @@ class XValidator {
       return 'Phone number is required';
     }
 
-    final PhoneRegExp = RegExp(r'^\d{10}$');
+    final phoneRegExp = RegExp(r'^\d{10}$');
 
-    if (!PhoneRegExp.hasMatch(value)) {
+    if (!phoneRegExp.hasMatch(value)) {
       return 'Invalid Phone number (10 digits required)';
     }
 
