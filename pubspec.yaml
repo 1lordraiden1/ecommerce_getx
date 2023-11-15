@@ -34,6 +34,7 @@ dependencies:
   logger: ^2.0.2+1
   url_launcher: ^6.1.14
   flutter_native_splash: ^2.3.5
+  smooth_page_indicator: ^1.1.0
   
 
 dev_dependencies:
@@ -57,7 +58,7 @@ flutter:
     - assets/icons/brands/
     - assets/icons/categories/
     - assets/logos/
-    - assets/images/
+    - assets/images/onboarding/
   
   fonts:
     - family: Schyler
