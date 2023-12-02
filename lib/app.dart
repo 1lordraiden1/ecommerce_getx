@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xstore/features/auth/screens/onBoarding.dart';
+
+import 'package:xstore/features/auth/screens/onboarding/onboarding.dart';
 import 'package:xstore/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
