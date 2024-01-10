@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 
 class XColors {
-  XColors._();
-
   static const Color primary = Color(0xFF4868FF);
   static const Color secondary = Color(0xFFFFE248);
   static const Color accent = Color(0xFFb0c7ff);
 
-  static const Gradient linearGradient = LinearGradient(colors: [
-    
-  ]);
+  static const Gradient linearGradient = LinearGradient(colors: []);
 
   static const Color textPrimary = Color(0xFF333333);
   static const Color textsecondary = Color(0xFF6C757D);
