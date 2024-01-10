@@ -15,4 +15,9 @@ class XTexts {
 
   static const String homeAppbarTitle = 'Good day for shopping';
   static const String homeAppbarSubTitle = 'Xtreme';
+
+  static const String email = '';
+  static const String password = '';
+  static const String rememberMe = '';
+  static const String forgetPassword = '';
 }
