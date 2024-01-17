@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:iconsax/iconsax.dart';
 import 'package:xstore/common/widgets/success.dart';
 import 'package:xstore/features/auth/screens/login/login.dart';
 import 'package:xstore/utils/constants/image_strings.dart';
 import 'package:xstore/utils/constants/sizes.dart';
+import 'package:xstore/utils/constants/text_strings.dart';
 
 class ForgetPassScreen extends StatelessWidget {
   const ForgetPassScreen({super.key});
@@ -26,6 +28,7 @@ class ForgetPassScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(XSizes.defaultSpace),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               // String
 
@@ -41,7 +44,7 @@ class ForgetPassScreen extends StatelessWidget {
               Text(
                 "Check your Email",
                 style: Theme.of(context).textTheme.labelMedium,
-                textAlign: TextAlign.center,
+                textAlign: TextAlign.start,
               ),
               const SizedBox(
                 height: XSizes.spaceBtwSections,
@@ -49,7 +52,16 @@ class ForgetPassScreen extends StatelessWidget {
 
               // TFF
 
-              TextFormField(),
+              TextFormField(
+                decoration: const InputDecoration(
+                  prefix: Icon(Iconsax.direct_right),
+                  labelText: XTexts.email,
+                ),
+              ),
+
+              const SizedBox(
+                height: XSizes.spaceBtwSections,
+              ),
 
               // Button
 

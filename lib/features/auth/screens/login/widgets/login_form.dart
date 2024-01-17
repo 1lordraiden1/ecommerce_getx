@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:xstore/features/auth/screens/login/forget_pass.dart';
 import 'package:xstore/features/auth/screens/signup/signup.dart';
 import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/constants/text_strings.dart';
@@ -52,7 +53,7 @@ class XLoginForm extends StatelessWidget {
                 // forget password
 
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassScreen()),
                   child: const Text(
                     XTexts.forgetPassword,
                   ),
