@@ -3,10 +3,10 @@ import 'package:xstore/common/styles/spacing_style.dart';
 import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/helpers/helper_functions.dart';
 
-import 'widgets/form_divider.dart';
+import '../../../../utils/theme/custom/form_divider.dart';
 import 'widgets/login_form.dart';
 import 'widgets/login_header.dart';
-import 'widgets/social_buttons.dart';
+import '../../../../utils/theme/custom/social_buttons.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

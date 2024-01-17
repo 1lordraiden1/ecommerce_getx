@@ -15,4 +15,6 @@ class XImages {
   static const String onBoardingImage2 = "assets/images/onboarding/cart.gif";
   static const String onBoardingImage3 =
       "assets/images/onboarding/satisfied_one.gif";
+
+  static const String success = "assets/images/animations/success.gif";
 }

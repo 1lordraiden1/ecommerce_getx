@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:xstore/features/auth/screens/signup/signup.dart';
 import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/constants/text_strings.dart';
 
@@ -12,8 +14,7 @@ class XLoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Form(
       child: Padding(
-        padding: const EdgeInsets.symmetric(
-            vertical: XSizes.spaceBtwSections),
+        padding: const EdgeInsets.symmetric(vertical: XSizes.spaceBtwSections),
         child: Column(
           children: [
             TextFormField(
@@ -82,12 +83,12 @@ class XLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(() => const SignupScreen());
+                },
                 child: const Text("Create Account"),
               ),
             ),
-
-            
           ],
         ),
       ),
