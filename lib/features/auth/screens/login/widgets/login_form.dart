@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:xstore/features/auth/screens/login/forget_pass.dart';
 import 'package:xstore/features/auth/screens/signup/signup.dart';
+import 'package:xstore/navigation_menu.dart';
 import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/constants/text_strings.dart';
 
@@ -70,7 +71,7 @@ class XLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(const NavigationMenu()),
                 child: const Text("Sign in"),
               ),
             ),
