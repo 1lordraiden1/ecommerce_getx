@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:xstore/features/shop/screens/home.dart';
 import 'package:xstore/utils/constants/colors.dart';
 import 'package:xstore/utils/helpers/helper_functions.dart';
 
@@ -44,9 +45,7 @@ class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
 
   final screens = [
-    Container(
-      color: Colors.blue,
-    ),
+    const HomeScreen(),
     Container(
       color: Colors.red,
     ),
