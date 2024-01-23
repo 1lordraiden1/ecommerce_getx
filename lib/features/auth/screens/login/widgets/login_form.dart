@@ -71,7 +71,7 @@ class XLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () => Get.to(const NavigationMenu()),
+                onPressed: () => Get.offAll(const NavigationMenu()),
                 child: const Text("Sign in"),
               ),
             ),
