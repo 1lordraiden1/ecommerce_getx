@@ -85,6 +85,7 @@ class HomeScreen extends StatelessWidget {
                   
                   GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (context, int) =>  XProductCardVertical(),),
                   XProductCardVertical(),
+                  Text(""),
                 ],
               ),
             ),
