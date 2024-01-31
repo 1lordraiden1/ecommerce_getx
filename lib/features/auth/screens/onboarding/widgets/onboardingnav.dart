@@ -6,8 +6,8 @@ import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/device/device_utility.dart';
 import 'package:xstore/utils/helpers/helper_functions.dart';
 
-class onBoardingNavigation extends StatelessWidget {
-  const onBoardingNavigation({
+class OnBoardingNavigation extends StatelessWidget {
+  const OnBoardingNavigation({
     super.key,
   });
 

@@ -5,8 +5,8 @@ import 'package:xstore/utils/constants/sizes.dart';
 import 'package:xstore/utils/device/device_utility.dart';
 import 'package:xstore/utils/helpers/helper_functions.dart';
 
-class onBoardingCirBtn extends StatelessWidget {
-  const onBoardingCirBtn({
+class OnBoardingCirBtn extends StatelessWidget {
+  const OnBoardingCirBtn({
     super.key,
   });
 

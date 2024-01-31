@@ -23,6 +23,9 @@ class LoginHeader extends StatelessWidget {
             dark ? XImages.darkAppLogo : XImages.lightAppLogo,
           ),
         ),
+        const SizedBox(
+          height: XSizes.sm,
+        ),
         Text(
           XTexts.homeAppbarTitle,
           style: Theme.of(context).textTheme.headlineMedium,
@@ -31,7 +34,7 @@ class LoginHeader extends StatelessWidget {
           height: XSizes.sm,
         ),
         Text(
-          XTexts.homeAppbarTitle,
+          XTexts.homeAppbarSubTitle,
           style: Theme.of(context).textTheme.headlineMedium,
         ),
       ],

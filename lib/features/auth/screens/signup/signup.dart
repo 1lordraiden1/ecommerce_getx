@@ -45,6 +45,9 @@ class SignupScreen extends StatelessWidget {
               // check box
 
               SignupCheckbox(dark: dark),
+              const SizedBox(
+                height: XSizes.spaceBtwItems,
+              ),
 
               // create buttton
 
@@ -54,6 +57,9 @@ class SignupScreen extends StatelessWidget {
                   onPressed: () => Get.to(() => const VerifyEmail()),
                   child: const Text("Create Account"),
                 ),
+              ),
+              const SizedBox(
+                height: XSizes.spaceBtwSections,
               ),
 
               //divider

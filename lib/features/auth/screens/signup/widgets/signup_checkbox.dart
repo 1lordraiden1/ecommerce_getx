@@ -14,7 +14,6 @@ class SignupCheckbox extends StatelessWidget {
     return Row(
       children: [
         SizedBox(child: Checkbox(value: true, onChanged: (value) {})),
-        const Text("I agree to Privacy Policy and Terms of use"),
         Text.rich(
           TextSpan(
             children: [

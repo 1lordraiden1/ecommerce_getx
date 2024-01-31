@@ -4,8 +4,8 @@ import 'package:xstore/utils/constants/sizes.dart';
 
 import '../../../../../utils/device/device_utility.dart';
 
-class onBoardingSkip extends StatelessWidget {
-  const onBoardingSkip({
+class OnBoardingSkip extends StatelessWidget {
+  const OnBoardingSkip({
     super.key,
   });
 

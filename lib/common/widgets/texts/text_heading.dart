@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:xstore/utils/constants/colors.dart';
 
 class XSectionHeading extends StatelessWidget {
   const XSectionHeading({
     super.key,
-    this.textColor,
+    this.textColor = XColors.white,
     required this.showActionButton,
     required this.title,
     this.buttonTitle = "View all",
